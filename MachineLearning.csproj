@@ -8,11 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MachineLearningModels\**" />
+    <EmbeddedResource Remove="MachineLearningModels\**" />
+    <None Remove="MachineLearningModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="4.0.2" />
     <PackageReference Include="Microsoft.ML.DataView" Version="4.0.2" />
     <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="4.0.2" />
     <PackageReference Include="Microsoft.ML.Vision" Version="4.0.2" />
     <PackageReference Include="SciSharp.TensorFlow.Redist" Version="1.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="MachineLearningModels\MachineLearningModels.csproj" />
   </ItemGroup>
 
 </Project>

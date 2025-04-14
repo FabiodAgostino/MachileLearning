@@ -1,11 +1,7 @@
-﻿using Microsoft.ML;
-using Microsoft.ML.Data;
+﻿using MachineLearningModels;
+using Microsoft.ML;
 using Microsoft.ML.Vision;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 
 namespace MachineLearning.Services
 {
@@ -14,18 +10,21 @@ namespace MachineLearning.Services
         private readonly MLContext _mlContext;
         private readonly string _datasetPath;
         private readonly string _modelSavePath;
+        private readonly string _categoryToTrain;
 
-        public ModelTrainer(string datasetPath, string modelSavePath)
+
+        public ModelTrainer(string datasetPath, string modelSavePath, string categoryToTrain="Mulo")
         {
             _mlContext = new MLContext(seed: 42);
             _datasetPath = datasetPath;
             _modelSavePath = modelSavePath;
+            _categoryToTrain = categoryToTrain;
         }
 
         public void Train()
         {
-            Console.WriteLine("Caricamento dataset...");
-            var data = LoadImagesFromDirectory(_datasetPath);
+            Console.WriteLine($"Caricamento dataset per la categoria {_categoryToTrain}...");
+            var data = LoadImagesFromDirectory(_datasetPath, _categoryToTrain);
             var dataView = _mlContext.Data.LoadFromEnumerable(data);
 
             // Stampa lo schema delle colonne per verificare i tipi
@@ -34,6 +33,7 @@ namespace MachineLearning.Services
             {
                 Console.WriteLine($"Nome Colonna: {column.Name}, Tipo: {column.Type}");
             }
+
 
             var trainTestData = _mlContext.Data.TrainTestSplit(dataView, testFraction: 0.2);
 
@@ -68,17 +68,13 @@ namespace MachineLearning.Services
                 inputColumnName: "Label",
                 outputColumnName: "LabelKey");
 
-            // Caricamento raw delle immagini: questa trasformazione legge il file immagine e lo converte in un array di byte.
+            // Caricamento raw delle immagini
             var loadRawImages = _mlContext.Transforms.LoadRawImageBytes(
                 outputColumnName: "Image",
                 imageFolder: _datasetPath,
-                inputColumnName: nameof(MuloImageData.ImagePath));
+                inputColumnName: nameof(CategoryImageData.ImagePath));
 
-            // NOTA: se vuoi eseguire un pre-processing (ad es. resize) potresti farlo in anticipo,
-            // oppure utilizzare una trasformazione custom, visto che LoadRawImageBytes restituisce i byte dell'immagine originale.
-
-            // Definizione del trainer Image Classification con ResNet.
-            // Il trainer utilizza il column "Image" che ora è di tipo VarVector<byte> come richiesto.
+            // Definizione del trainer Image Classification con ResNet
             var trainer = _mlContext.MulticlassClassification.Trainers.ImageClassification(
                 new ImageClassificationTrainer.Options
                 {
@@ -89,7 +85,7 @@ namespace MachineLearning.Services
                     BatchSize = 10,
                     LearningRate = 0.01f,
                     MetricsCallback = (metrics) => Console.WriteLine(metrics),
-                    ValidationSet = null // Se disponi di un validation set puoi impostarlo qui
+                    ValidationSet = null
                 });
 
             // Mappatura delle chiavi ai valori originali dopo la predizione
@@ -97,7 +93,7 @@ namespace MachineLearning.Services
                 inputColumnName: "PredictedLabel",
                 outputColumnName: "PredictedLabelValue");
 
-            // Costruzione della pipeline concatenando i vari trasformatori
+            // Costruzione della pipeline
             var pipeline = mapValueToKey
                 .Append(loadRawImages)
                 .Append(trainer)
@@ -106,29 +102,29 @@ namespace MachineLearning.Services
             return pipeline;
         }
 
-        private List<MuloImageData> LoadImagesFromDirectory(string directory)
+        private List<CategoryImageData> LoadImagesFromDirectory(string directory, string category)
         {
-            var data = new List<MuloImageData>();
+            var data = new List<CategoryImageData>();
 
-            // Carica immagini positive (Mulo)
-            var muloDir = Path.Combine(directory, "Mulo");
-            if (Directory.Exists(muloDir))
+            // Carica immagini positive
+            var positiveDir = Path.Combine(directory, category);
+            if (Directory.Exists(positiveDir))
             {
-                var files = Directory.GetFiles(muloDir, "*.png");
+                var files = Directory.GetFiles(positiveDir, "*.png");
                 foreach (var file in files)
                 {
-                    data.Add(MuloImageData.FromFile(file, "Mulo"));
+                    data.Add(CategoryImageData.FromFile(file, category));
                 }
             }
 
-            // Carica immagini negative (NonMulo)
-            var nonMuloDir = Path.Combine(directory, "NonMulo");
-            if (Directory.Exists(nonMuloDir))
+            // Carica immagini negative
+            var negativeDir = Path.Combine(directory, $"Non{category}");
+            if (Directory.Exists(negativeDir))
             {
-                var files = Directory.GetFiles(nonMuloDir, "*.png");
+                var files = Directory.GetFiles(negativeDir, "*.png");
                 foreach (var file in files)
                 {
-                    data.Add(MuloImageData.FromFile(file, "NonMulo"));
+                    data.Add(CategoryImageData.FromFile(file, $"Non{category}"));
                 }
             }
 
@@ -136,29 +132,5 @@ namespace MachineLearning.Services
         }
     }
 
-    public class MuloImageData
-    {
-        [LoadColumn(0)]
-        public string ImagePath { get; set; }
-
-        [LoadColumn(1)]
-        public string Label { get; set; }
-
-        public static MuloImageData FromFile(string imagePath, string label)
-        {
-            return new MuloImageData
-            {
-                ImagePath = imagePath,
-                Label = label
-            };
-        }
-    }
-
-    public class MuloPrediction
-    {
-        public string ImagePath { get; set; }
-        public string Label { get; set; }
-        public float[] Score { get; set; }
-        public string PredictedLabelValue { get; set; }
-    }
+ 
 }
