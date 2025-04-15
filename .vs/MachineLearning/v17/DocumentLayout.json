@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\modeltrainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\modeltrainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\models\\mulodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:models\\mulodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\mulopredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\mulopredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\muloclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\muloclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\coordinateregressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\coordinateregressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\machinelearning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:machinelearning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\coordinatelabelerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\coordinatelabelerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\renameimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\renameimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\dataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:dataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MuloData.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Models\\MuloData.cs",
+              "RelativeDocumentMoniker": "Models\\MuloData.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Models\\MuloData.cs",
+              "RelativeToolTip": "Models\\MuloData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:37:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelTrainer.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\ModelTrainer.cs",
+              "RelativeDocumentMoniker": "Services\\ModelTrainer.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\ModelTrainer.cs",
+              "RelativeToolTip": "Services\\ModelTrainer.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAUwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:06:56.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MuloPredictionService.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\MuloPredictionService.cs",
+              "RelativeDocumentMoniker": "Services\\MuloPredictionService.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\MuloPredictionService.cs",
+              "RelativeToolTip": "Services\\MuloPredictionService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:56:43.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoordinateRegressor.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\CoordinateRegressor.cs",
+              "RelativeDocumentMoniker": "Services\\CoordinateRegressor.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\CoordinateRegressor.cs",
+              "RelativeToolTip": "Services\\CoordinateRegressor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:52:54.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MuloClassifier.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\MuloClassifier.cs",
+              "RelativeDocumentMoniker": "Services\\MuloClassifier.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\MuloClassifier.cs",
+              "RelativeToolTip": "Services\\MuloClassifier.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAWwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:51:43.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoordinateLabelerService.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\CoordinateLabelerService.cs",
+              "RelativeDocumentMoniker": "Services\\CoordinateLabelerService.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\CoordinateLabelerService.cs",
+              "RelativeToolTip": "Services\\CoordinateLabelerService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:44:28.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MachineLearning",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\MachineLearning.csproj",
+              "RelativeDocumentMoniker": "MachineLearning.csproj",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\MachineLearning.csproj",
+              "RelativeToolTip": "MachineLearning.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-15T18:42:55.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RenameImages.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\RenameImages.cs",
+              "RelativeDocumentMoniker": "Services\\RenameImages.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\RenameImages.cs",
+              "RelativeToolTip": "Services\\RenameImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:04:31.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:35:45.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dataset.cs",
+              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Dataset.cs",
+              "RelativeDocumentMoniker": "Dataset.cs",
+              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Dataset.cs",
+              "RelativeToolTip": "Dataset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:25:56.216Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
