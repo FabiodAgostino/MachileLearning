@@ -1,13 +1,6 @@
-﻿using MachineLearning;
-using MachineLearning.Services;
+﻿using MachineLearning.Services2;
 using System;
 using System.IO;
-using MachineLearning;
-using MachineLearning.Services;
-using System;
-using System.IO;
-using static Tensorflow.ApiDef.Types;
-using System.Windows.Forms;
 
 namespace MachineLearning
 {
@@ -16,14 +9,27 @@ namespace MachineLearning
         [STAThread]
         static void Main()
         {
-            if (!File.Exists("MuloDetector.zip"))
-            {
-                Console.WriteLine("🎓 Modello non trovato, avvio training...");
-                var trainer = new ModelTrainer("Dataset", "MuloModel.zip", "MuloRegressorX.zip", "MuloRegressorY.zip"); 
-                trainer.Train();
-            }
+            //if (!File.Exists("MuloDetector.zip"))
+            //{
+            //    Console.WriteLine("🎓 Modello non trovato, avvio training...");
+            //    var trainer = new ModelTrainer("Dataset", "MuloModel.zip", "MuloRegressorX.zip", "MuloRegressorY.zip"); 
+            //    trainer.Train();
+            //}
 
-          
+            // Imposta i percorsi
+            string datasetPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Dataset");
+            string modelPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Models", "mulo-detector.zip");
+
+            // Assicurati che la directory Models esista
+            Directory.CreateDirectory(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Models"));
+
+            // Inizializza il detector
+            var detector = new MuloDetectorObjectDetection2(datasetPath, modelPath);
+
+            // Addestra il modello (da eseguire una tantum)
+            detector.TrainAndSaveModel();
+
+
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false); //
             //var labeler = new CoordinateLabelerService("Dataset/dataset.csv");

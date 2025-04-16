@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.ML.Vision" Version="4.0.2" />
     <PackageReference Include="SciSharp.TensorFlow.Redist" Version="1.15.0" />
 	  <PackageReference Include="Microsoft.ML.FastTree" Version="4.0.2" />
+	  <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
 
   </ItemGroup>
 
