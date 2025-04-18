@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\",
+  "WorkspaceRootPath": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\newservices\\improvedobjectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:newservices\\improvedobjectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\fabio.dagostino\\documents\\github\\machilelearning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\improvedobjectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\improvedobjectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35AC4849-AF0E-4E85-B9DD-C4FDFF5B08FA}|CombinedModel\\DetectorModel.csproj|c:\\users\\fabio.dagostino\\documents\\github\\machilelearning\\combinedmodel\\services\\objectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35AC4849-AF0E-4E85-B9DD-C4FDFF5B08FA}|CombinedModel\\DetectorModel.csproj|solutionrelative:combinedmodel\\services\\objectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\objectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\objectdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\services\\mulodetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:services\\mulodetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\models\\mulodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:models\\mulodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|c:\\users\\thebe\\documents\\github\\machilelearning\\dataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0A8CAF-61CE-4D16-BE7B-959A5FA1640A}|MachineLearning.csproj|solutionrelative:dataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35AC4849-AF0E-4E85-B9DD-C4FDFF5B08FA}|CombinedModel\\DetectorModel.csproj|c:\\users\\fabio.dagostino\\documents\\github\\machilelearning\\combinedmodel\\services\\combinedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35AC4849-AF0E-4E85-B9DD-C4FDFF5B08FA}|CombinedModel\\DetectorModel.csproj|solutionrelative:combinedmodel\\services\\combinedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +26,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -71,91 +55,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImprovedObjectDetector.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\NewServices\\ImprovedObjectDetector.cs",
-              "RelativeDocumentMoniker": "NewServices\\ImprovedObjectDetector.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\NewServices\\ImprovedObjectDetector.cs",
-              "RelativeToolTip": "NewServices\\ImprovedObjectDetector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:27:53.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImprovedObjectDetector.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\ImprovedObjectDetector.cs",
-              "RelativeDocumentMoniker": "Services\\ImprovedObjectDetector.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\ImprovedObjectDetector.cs",
-              "RelativeToolTip": "Services\\ImprovedObjectDetector.cs",
-              "ViewState": "AgIAAPMDAAAAAAAAAAAowBIEAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:25:03.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ObjectDetector.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\ObjectDetector.cs",
-              "RelativeDocumentMoniker": "Services\\ObjectDetector.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\ObjectDetector.cs",
-              "RelativeToolTip": "Services\\ObjectDetector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:16:38.146Z",
+              "WhenOpened": "2025-04-18T13:39:37.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Title": "ObjectDetector.cs",
+              "DocumentMoniker": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\CombinedModel\\Services\\ObjectDetector.cs",
+              "RelativeDocumentMoniker": "CombinedModel\\Services\\ObjectDetector.cs",
+              "ToolTip": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\CombinedModel\\Services\\ObjectDetector.cs",
+              "RelativeToolTip": "CombinedModel\\Services\\ObjectDetector.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:49:13.881Z",
+              "WhenOpened": "2025-04-18T13:37:16.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MuloDetector.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\MuloDetector.cs",
-              "RelativeDocumentMoniker": "Services\\MuloDetector.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Services\\MuloDetector.cs",
-              "RelativeToolTip": "Services\\MuloDetector.cs",
-              "ViewState": "AgIAACMCAAAAAAAAAAAAAH8AAAA3AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CombinedModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\CombinedModel\\Services\\CombinedModel.cs",
+              "RelativeDocumentMoniker": "CombinedModel\\Services\\CombinedModel.cs",
+              "ToolTip": "C:\\Users\\fabio.dagostino\\Documents\\GitHub\\MachileLearning\\CombinedModel\\Services\\CombinedModel.cs",
+              "RelativeToolTip": "CombinedModel\\Services\\CombinedModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:22:12.195Z",
+              "WhenOpened": "2025-04-18T13:37:13.52Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MuloData.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Models\\MuloData.cs",
-              "RelativeDocumentMoniker": "Models\\MuloData.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Models\\MuloData.cs",
-              "RelativeToolTip": "Models\\MuloData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T20:37:46.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dataset.cs",
-              "DocumentMoniker": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Dataset.cs",
-              "RelativeDocumentMoniker": "Dataset.cs",
-              "ToolTip": "C:\\Users\\thebe\\Documents\\GitHub\\MachileLearning\\Dataset.cs",
-              "RelativeToolTip": "Dataset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:25:56.216Z"
             }
           ]
         }

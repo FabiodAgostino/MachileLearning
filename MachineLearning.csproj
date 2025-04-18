@@ -7,8 +7,14 @@
 	</PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CombinedModel\**" />
+    <Compile Remove="Dataset\**" />
     <Compile Remove="MachineLearningModels\**" />
+    <EmbeddedResource Remove="CombinedModel\**" />
+    <EmbeddedResource Remove="Dataset\**" />
     <EmbeddedResource Remove="MachineLearningModels\**" />
+    <None Remove="CombinedModel\**" />
+    <None Remove="Dataset\**" />
     <None Remove="MachineLearningModels\**" />
   </ItemGroup>
 
@@ -24,6 +30,10 @@
 	  <PackageReference Include="Microsoft.ML.FastTree" Version="4.0.2" />
 	  <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
 
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="CombinedModel\DetectorModel.csproj" />
   </ItemGroup>
 
 </Project>
